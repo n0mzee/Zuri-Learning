@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ======== Site Head  ======== -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML SEMANTICS TASK</title>
+</head>
+<style>
+    .button {
+padding-top: 15px; 
+padding-bottom: 15px; 
+color: white; 
+background-color: rgb(55, 135, 182); 
+border: 0px; border-radius: 2px;
+}
+
+.button:hover {
+background-color: skyblue;
+cursor: pointer; 
+padding-top: 15px;
+transition: 1s;
+}
+</style>
+
+<body>
+    <!-- ========  Header  ======== -->
+    <header>
+        <h4 style="background-color: rgb(63, 62, 62); color:rgb(245, 243, 235); padding-top:12px; padding-bottom: 12px; text-align: center; font-family: Lucida Sans Regular; font-size: small;"> Quiz on Important Facts</h4>
+    </header>
+    <!-- ======== Main Page  ======== -->
+    <main>
+        <!-- ======== Question Section ======== -->
+        <section>
+            <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: dimgray;text-align: center;">Which one of these is a JavaScript package manager?</h2>
+        </section>
+         <!-- ======== Answer Selections Section ======== -->
+        <section style="margin-left: 40%;">
+            <input type="radio" name="package_manager" value="Node.js"><label for="Node.js" style="font-family:Arial, Helvetica, sans-serif; color: dimgrey;"> a : Node.js</label><br>
+            <input type="radio" name="package_manager" value="TypeScript"><label for="TypeScript"style="font-family:Arial, Helvetica, sans-serif; color: dimgrey;"> b : TypeScript</label><br>
+            <input type="radio" name="package_manager" value="npm"><label for="npm"style="font-family:Arial, Helvetica, sans-serif; color: dimgrey;"> c : npm</label><br>
+        </section>
+        <br>
+        <!-- ======== Previous and Next Buttons Section ======== -->
+        <section style="text-align: center;">
+            <button class="button">Previous Question</button>
+            <button class="button">Next Question</button>
+        </section>
+
+    </main>
+    <!-- ======== Footer  ======== -->
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
